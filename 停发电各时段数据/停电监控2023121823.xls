@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fn="http://java.sun.com/jstl/functions">
+	<head>
+    <title>&#22522;&#30784;&#24179;&#21488;-&#30331;&#24405;&#25552;&#31034;&#31383;&#21475;</title>   
+     	<link class="component" href="/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_both.xcss/DATB/eAGLqP3ZGbp8hjQAE0oEBw__.xhtml" rel="stylesheet" type="text/css" /><link class="component" href="/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_both.xcss/DATB/eAGLqP3ZGbp8hjQAE0oEBw__.xhtml" media="rich-extended-skinning" rel="stylesheet" type="text/css" /><script type="text/javascript">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script src="/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js.xhtml" type="text/javascript"></script><script>
+ 	//<![CDATA[
+ 	           
+ 	            // 以下方式定时跳转
+		setTimeout("javascript:location.href='/baf/jsp/uiframe/login.jsp'", 1000); 
+ 	        
+ 	   function loginOut(){
+ 	     var flag="N";
+ 	     var customUrl="/baf/jsp/uiframe/login.jsp";
+ 	     if(flag=='Y'){
+ 	       window.close();
+ 	     }else{
+ 	        if(""==customUrl||"Y"==customUrl){
+ 	          top.location ="/baf/jsp/uiframe/login.jsp";
+ 	        }else{
+ 	           top.location =""+customUrl;
+ 	        } 
+ 	     }
+ 	   }
+ 	
+ 	
+ 		//]]>
+ 	</script>       	
+    </head>
+     
+	<body style="align:center">
+		<table width="100%" height="100%">		
+			<tr>
+				<td valign="middle" align="center">&#24744;&#27809;&#26377;&#30331;&#24405;&#35813;&#31995;&#32479;&#25110;&#30331;&#24405;&#24050;&#36229;&#26102;&#65292;&#35831;
+					<a href="#" onclick="loginOut();" style="font-size:16px;">&#37325;&#26032;&#30331;&#24405;
+					</a>!
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
